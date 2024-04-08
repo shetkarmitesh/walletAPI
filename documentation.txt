@@ -1,0 +1,12 @@
+1 . create app.js
+2 . installing prerequiste
+    npm init -y 
+    npm install express sequelize mysql2 body-parser
+    npm install sequelize-cli
+    npx sequelize init // automatically generates config , models , controllers , seeders
+
+3 . config.json
+    development setup root , password 
+
+4 . model creation 
+    npx sequelize model:generate --name User --attributes name : string, email : string
